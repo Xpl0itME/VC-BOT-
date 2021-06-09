@@ -1,0 +1,69 @@
+{
+  "name": "ꗄ➺ ᴍ𝐚я𝖎𝐚 ✘",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/ITZMEHIMANSHUKING/VC-BOT-",
+  "logo": "https://telegra.ph/file/5eec6ee3a6f8f3ae3c295.jpg",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram session string",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "A bot token from @BotFather",
+      "required": true,
+      "value": "1853791340:AAHmlrKzD4BI8vtzMe017K-krFuaiRJLeZI"
+    },
+    "BOT_USERNAME": {
+      "description": "Your bot's username without @",
+      "required": true,
+      "value": "Maria_vcbot"
+    },
+    "BOT_NAME": {
+      "description": "Your MusicPlayer Bot Name.",
+      "required": false,
+      "value": "ꗄ➺ ᴍ𝐚я𝖎𝐚 ✘"
+    },
+    "PROJECT_NAME": {
+      "description": "Your MusicPlayer project Name.",
+      "required": false,
+      "value": "ꗄ➺ ᴍ𝐚я𝖎𝐚 ✘"
+    },
+    "ASSISTANT_NAME": {
+      "description": "Your MusicPlayer's assistant Username without @.",
+      "required": true,
+      "value": "Maria_op"
+    },
+    "ARQ_API_KEY": {
+      "description": "Get from @ARQRobot.",
+      "required": false,
+      "value": "LAPTBQ-RLAAJR-KAIJDJ-BRPFFY-ARQ"
+    },    
+    "BG_IMAGE": {
+      "description": "BG image of bot (Use transparent one) [IGNORE].",
+      "required": false,
+      "value": " https://telegra.ph/file/5eec6ee3a6f8f3ae3c295.jpg"
+    },    
+    "API_ID": {
+      "description": "App ID from @Mafia_api_hash_extractorBot",
+      "required": true,
+      "value": "2517872"
+          },
+    "API_HASH": {
+      "description": "App hash from",
+      "required": true,
+      "value": "1e62d232659d495fc659a5a07db2274c"
+    },
+    "SUDO_USERS": {
+      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "required": true,
+      "value": "1377554601 1837726655"
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": true,
+      "value": "30"
+    }
+  }
+}
